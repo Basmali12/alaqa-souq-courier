@@ -1,7 +1,7 @@
 {
-  "name": "إدارة تاجر",
-  "short_name": "إدارة تاجر",
-  "description": "تطبيق إدارة تاجر علاكة",
+  "name": "مندوب علاكة سوك",
+  "short_name": "مندوب علاكة سوك",
+  "description": "تطبيق مندوب علاكة سوك لاستلام طلبات التوصيل",
   "lang": "ar",
   "dir": "rtl",
   "start_url": "./",
@@ -10,7 +10,7 @@
   "background_color": "#eef6ef",
   "theme_color": "#0b5232",
   "icons": [
-    { "src": "./icons/merchant-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "./icons/merchant-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    { "src": "./icons/courier-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icons/courier-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }
