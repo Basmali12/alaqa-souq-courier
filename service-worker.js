@@ -16,7 +16,7 @@ self.addEventListener("push", (event) => {
   };
 
   event.waitUntil(Promise.all([
-    self.registration.showNotification(data.title || "مندوب علاكة سوك", options),
+    self.registration.showNotification(data.title || "مندوب علاكة سوق", options),
     self.clients.matchAll({ includeUncontrolled: true, type: "window" }).then((clients) => {
       data._pushy = true;
       clients.forEach((client) => client.postMessage(data));
